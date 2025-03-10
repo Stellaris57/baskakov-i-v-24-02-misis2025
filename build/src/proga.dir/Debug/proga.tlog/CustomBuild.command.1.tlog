@@ -1,0 +1,10 @@
+^C:\USERS\BASKA\ONEDRIVE\РАБОЧИЙ СТОЛ\BASKAKOV-I-V-24-02-MISIS2025\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/baska/OneDrive/Рабочий стол/baskakov-i-v-24-02-misis2025" "-BC:/Users/baska/OneDrive/Рабочий стол/baskakov-i-v-24-02-misis2025/build" --check-stamp-file "C:/Users/baska/OneDrive/Рабочий стол/baskakov-i-v-24-02-misis2025/build/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

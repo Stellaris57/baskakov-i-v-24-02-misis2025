@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\baska\OneDrive\Рабочий стол\baskakov-i-v-24-02-misis2025\build\CMakeFiles\48997993401bb7dc74c95e302c8a7b55\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{10CA249C-10D0-3A05-85FE-E95E970AD2F6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

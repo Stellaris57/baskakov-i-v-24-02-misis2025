@@ -1,0 +1,10 @@
+^C:\USERS\BASKA\ONEDRIVE\РАБОЧИЙ СТОЛ\BASKAKOV-I-V-24-02-MISIS2025\BUILD\CMAKEFILES\48997993401BB7DC74C95E302C8A7B55\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/baska/OneDrive/Рабочий стол/baskakov-i-v-24-02-misis2025" "-BC:/Users/baska/OneDrive/Рабочий стол/baskakov-i-v-24-02-misis2025/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/baska/OneDrive/Рабочий стол/baskakov-i-v-24-02-misis2025/build/proga.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
